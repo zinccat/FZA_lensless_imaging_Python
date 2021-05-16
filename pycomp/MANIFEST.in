@@ -1,0 +1,9 @@
+include setup.py
+include LICENSE
+include README.rst
+recursive-include compsense *.py
+recursive-include compsense/data *
+recursive-include examples *.py
+recursive-include doc Makefile *.bat *.rst *.py
+recursive-include doc/images *.png
+prune pycompsense.egg-info*
